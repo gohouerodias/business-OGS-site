@@ -12,7 +12,7 @@
     </head>
     <body id="page-top">
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+        <nav class="navbar navbar-expand-lg navbar-light  fixed-top" id="mainNav" style="background-color: darksalmon;">
             <div class="container px-4">
                 <a class="navbar-brand text-success" href="#page-top">OG-Services</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -26,32 +26,60 @@
             </div>
         </nav>
         <!-- Header-->
-            <header class="bg-dark py-5">
+            <header class=" py-5" style="background-color: rgb(250, 173, 148);">
                 <div class="container px-5">
                     <div class="row gx-5 align-items-center justify-content-center">
                         <div class="col-lg-8 col-xl-7 col-xxl-6">
                             <div class="my-5 text-center text-xl-start">
                                 <h1 class="display-5 fw-bolder text-success mb-2">OMEGA GROUP SERVICES</h1>
-                                <p class="lead fw-normal text-white-50 mb-4">Des services adaptés a vos besoins!</p>
+                                <p class="lead fw-normal text-dark-50 mb-4">Des services adaptés a vos besoins!</p>
                                 
                             </div>
                         </div>
-                        <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center"><img class="img-fluid rounded-3 my-5"
-                                src="./assets/logo-ogs.jpeg" style="width:300px; height: 300px;"></div>
+                        <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center">
+                            <div id="carouselExampleDark" class="carousel carousel-dark slide p-3" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                                        aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active d-flex justify-content-center " data-bs-interval="10000">
+                                        <img src="./assets/logo-ogs.jpeg" class="d-block w-50 " alt="...">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="2000">
+                                        <img src="./assets/fleur1.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./assets/fleur2.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                
             </header>
         <!-- About section-->
         <section id="about">
             <div class="container px-4">
                 <div class="row gx-4 justify-content-center">
                     <div class="col-lg-8">
-                        <h2>A propos de nous </h2>
-                        <p class="lead"><span class="text-success"><strong>OMEGA GROUP SERVICE</strong></span> a été créé dans le but de vulgariser des services comme <strong>l'amenagement de potagers et de petits
+                        <h2 style="color: #6d071a;">A propos de nous </h2>
+                        <p class="lead"><span class="text-success"><strong >OMEGA GROUP SERVICE</strong></span> a été créé dans le but de vulgariser des services comme <strong class="text-primary">l'amenagement de potagers et de petits
                         jardins en sol et hors sol au sein des menages</strong>. OGS oeuvre aussi a donné des coups de pouces aux petites entreprises qui
-                        n'ont pas les moyens d'avoir une equipe marketing au sein de leur societes. Nous aidons ces entreprises à <strong> avoir de la
+                        n'ont pas les moyens d'avoir une equipe marketing au sein de leur societes. Nous aidons ces entreprises à <strong class="text-primary"> avoir de la
                         visibilité et à promouvoir leurs produits</strong>.
-                        Outre cela, nous proposons également <strong>des services d'entretien et de nettoyage pour aider nos clients à créer des espaces
+                        Outre cela, nous proposons également <strong class="text-primary">des services d'entretien et de nettoyage pour aider nos clients à créer des espaces
                         confortables et esthétiques dans leur maison ou entreprise</strong> . Nous sommes composés d'une <span style="border-bottom: 2px solid var(--bs-primary)"><strong> équipe de professionnels</strong></span>
                         passionnés et déterminés qui mettent leur expertise à votre disposition pour atteindre vos objectifs.</p>
 
@@ -70,7 +98,7 @@
             <div class="container px-4">
                 <div class="row gx-4 justify-content-center">
                     <div class="col-lg-8">
-                        <h2>Nos Services</h2>
+                        <h2 >Nos Services</h2>
                         <p class="lead">Notre entreprise propose des services professionnels de haute qualité pour vous aider à atteindre vos objectifs.</p>
                     </div>
                 </div>
@@ -81,9 +109,9 @@
                     <div class="col-lg-4 mb-5">
                         <div class="card h-100 shadow-lg border-0 rounded-3 px-4">
                             <img class="card-img-top w-100 h-40" src="./assets/com-marketing.jpg" style="width:100px; height: 300px;" >
-                            <div class="card-body p-4">
+                            <div class="card-body p-2">
                                 <a class="text-decoration-none link-dark stretched-link" href="#!">
-                                    <h5 class="card-title mb-3">Communication et marketing</h5>
+                                    <h5 class="card-title mb-3" style="color: #6d071a;">Communication et marketing</h5>
                                 </a>
                                 <p class="card-text mb-0">Le service Communication et Marketing que nous proposons à notre clientèle est conçu pour aider les entreprises à
                                 développer leur présence en ligne, à accroître leur notoriété et à atteindre leurs objectifs de vente. Nous travaillons
@@ -95,9 +123,9 @@
                     <div class="col-lg-4 mb-5 ">
                         <div class="card h-100 shadow shadow-lg border-0 rounded-3 ">
                             <img class="card-img-top w-100 h-60" src="./assets/gardening.jpg" style="width:100px; height: 300px;">
-                            <div class="card-body p-4">
+                            <div class="card-body p-2">
                                 <a class="text-decoration-none link-dark stretched-link" href="#!">
-                                    <h5 class="card-title mb-3">Amenagement de jardin et jardinage</h5>
+                                    <h5 class="card-title mb-3" style="color: #6d071a;">Amenagement de jardin et jardinage</h5>
                                 </a>
                                 <p class="card-text mb-0">Notre service d'aménagement de jardin et de jardinage est conçu pour aider nos clients à créer un espace extérieur beau
                                 et fonctionnel, adapté à leurs besoins et à leur style de vie. Nous offrons une gamme complète de services pour
@@ -110,9 +138,9 @@
                     <div class="col-lg-4 mb-5">
                         <div class="card h-100 shadow border-0 ">
                             <img class="card-img-top w-100 h-60" src="./assets/cleaning.jpg" style="width:100px; height: 300px;">
-                            <div class="card-body p-4">
+                            <div class="card-body p-2">
                                 <a class="text-decoration-none link-dark stretched-link" href="#!">
-                                    <h5 class="card-title mb-3">Entretien et nettoyage</h5>
+                                    <h5 class="card-title mb-3" style="color: #6d071a;">Entretien et nettoyage</h5>
                                 </a>
                                 <p class="card-text mb-0">Notre service d'entretien et de nettoyage est conçu pour aider nos clients à maintenir leur espace de vie ou de travail
                                 propre et ordonné. Nous offrons une gamme complète de services d'entretien, y compris le nettoyage régulier des locaux,
@@ -125,9 +153,9 @@
                     <div class="col-lg-4 mb-5">
                         <div class="card h-100 shadow border-0 ">
                             <img class="card-img-top w-100 h-60" src="./assets/decoration.jpg" style="width:100px; height: 250px;">
-                            <div class="card-body p-4">
+                            <div class="card-body p-2">
                                 <a class="text-decoration-none link-dark stretched-link" href="#!">
-                                    <h5 class="card-title mb-3">Decoration d'interieur</h5>
+                                    <h5 class="card-title mb-3" style="color: #6d071a;">Decoration d'interieur</h5>
                                 </a>
                                 <p class="card-text mb-0">Notre service de décoration d'intérieur est conçu pour aider nos clients à transformer leur espace de vie ou de travail
                                 en un lieu confortable, esthétique et fonctionnel. Nous offrons des services de décoration complets, comprenant
